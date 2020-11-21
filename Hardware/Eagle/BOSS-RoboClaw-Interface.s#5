@@ -4942,8 +4942,8 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 <part name="GND-ISO2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND-ISO" device=""/>
 <part name="IC1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="ISO7221" device="ISO7221" package3d_urn="urn:adsk.eagle:package:24898359/3"/>
 <part name="J3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-2X2" device="AMP-75869-130LF" package3d_urn="urn:adsk.eagle:package:24897806/2"/>
-<part name="J4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:9166100/8"/>
-<part name="J5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="FE10-2" device="SAMTEC-ESW-110-44-S-D" package3d_urn="urn:adsk.eagle:package:24899505/2"/>
+<part name="J4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:9166100/8" value="SAMTEC ESQ-105-44-G-S"/>
+<part name="J5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="FE10-2" device="SAMTEC-ESW-110-44-S-D" package3d_urn="urn:adsk.eagle:package:24899505/2" value="SAMTEC ESW-110-44-S-D"/>
 <part name="J1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X2-MOLEX-22112022" device="" package3d_urn="urn:adsk.eagle:package:24727026/3"/>
 <part name="J2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X3RA-MOLEX-22122034" device="" package3d_urn="urn:adsk.eagle:package:24728688/10"/>
 </parts>
@@ -5102,11 +5102,11 @@ BasicMicro 2x7A controller.</text>
 <attribute name="VALUE" x="117.475" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="J4" gate="G$1" x="55.88" y="35.56" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="54.61" y="45.72" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="74.93" y="45.72" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="54.61" y="27.178" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="J5" gate="G$1" x="96.52" y="71.12" smashed="yes">
-<attribute name="VALUE" x="92.71" y="55.88" size="1.778" layer="96"/>
+<attribute name="VALUE" x="80.01" y="55.88" size="1.778" layer="96"/>
 <attribute name="NAME" x="92.71" y="87.122" size="1.778" layer="95"/>
 </instance>
 <instance part="J1" gate="G$1" x="20.32" y="55.88" smashed="yes">
@@ -5235,14 +5235,14 @@ BasicMicro 2x7A controller.</text>
 <pinref part="GND-ISO1" gate="G$1" pin="GND-ISO"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="TXMCU" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="INA"/>
 <wire x1="111.76" y1="40.64" x2="118.11" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="J3" gate="A" pin="1"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="RXMCU" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUTB"/>
 <wire x1="111.76" y1="38.1" x2="118.11" y2="38.1" width="0.1524" layer="91"/>

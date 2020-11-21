@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -271,7 +271,7 @@
 <hole x="-16.6624" y="-1.905" drill="3.048"/>
 <hole x="16.6624" y="-1.905" drill="3.048"/>
 </package>
-<package name="H2R15ST" urn="urn:adsk.eagle:footprint:24873405/1" library_version="333">
+<package name="H2R15ST" urn="urn:adsk.eagle:footprint:24873405/2" library_version="349">
 <description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2R15ST29x</description>
 <wire x1="10.1727" y1="-3.9116" x2="-10.1727" y2="-3.9116" width="0.254" layer="21"/>
 <wire x1="11.1887" y1="3.9116" x2="-11.1887" y2="3.9116" width="0.254" layer="21"/>
@@ -289,7 +289,7 @@
 <wire x1="-19.4437" y1="4.6228" x2="-18.9357" y2="5.1308" width="0.254" layer="21" curve="-90"/>
 <wire x1="-19.4437" y1="-4.6228" x2="-18.9357" y2="-5.1308" width="0.254" layer="21" curve="90"/>
 <wire x1="18.9357" y1="-5.1308" x2="19.4437" y2="-4.6228" width="0.254" layer="21" curve="90"/>
-<pad name="1" x="9.6901" y="1.4224" drill="1.0922"/>
+<pad name="1" x="9.6901" y="1.4224" drill="1.0922" shape="square"/>
 <pad name="2" x="6.9215" y="1.4224" drill="1.0922"/>
 <pad name="3" x="4.1529" y="1.4224" drill="1.0922"/>
 <pad name="4" x="1.3843" y="1.4224" drill="1.0922"/>
@@ -2013,7 +2013,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SO-08-ISO7221" urn="urn:adsk.eagle:footprint:24898357/2" library_version="348">
+<package name="SO-08-ISO7221" urn="urn:adsk.eagle:footprint:24898357/2" library_version="349">
 <description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
 
 Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
@@ -2358,15 +2358,15 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <text x="-14.859" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="14.859" y="-3.81" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 </package>
-<package name="1X02-MOLEX-22112022" urn="urn:adsk.eagle:footprint:24727025/2" library_version="347">
-<pad name="1" x="0" y="0" drill="1.016" shape="square"/>
-<pad name="2" x="2.54" y="0" drill="1.016"/>
-<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="3.175" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="3.175" x2="3.81" y2="3.175" width="0.127" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="-3.175" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-3.175" x2="-1.27" y2="-3.175" width="0.127" layer="21"/>
-<text x="-1.27" y="3.302" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.27" y="-4.445" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<package name="1X02-MOLEX-22112022" urn="urn:adsk.eagle:footprint:24727025/3" library_version="350">
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1.016"/>
+<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-3.175" x2="-2.54" y2="-3.175" width="0.127" layer="21"/>
+<text x="-2.54" y="3.302" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-4.445" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="1X03RA-MOLEX-22122034" urn="urn:adsk.eagle:footprint:24728686/7" library_version="347">
 <pad name="3" x="2.54" y="3.81" drill="1.016" rot="R180"/>
@@ -2388,7 +2388,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <rectangle x1="-0.3048" y1="-2.8702" x2="0.3048" y2="-2.2098" layer="21"/>
 <rectangle x1="2.2352" y1="-2.7686" x2="2.8448" y2="-2.2098" layer="21"/>
 </package>
-<package name="SO-08" urn="urn:adsk.eagle:footprint:24898222/1" library_version="348">
+<package name="SO-08" urn="urn:adsk.eagle:footprint:24898222/1" library_version="349">
 <description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
 
 Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
@@ -2442,7 +2442,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <packageinstance name="H2R15RA"/>
 </packageinstances>
 </package3d>
-<package3d name="H2R15ST" urn="urn:adsk.eagle:package:24873178/3" type="model" library_version="333">
+<package3d name="H2R15ST" urn="urn:adsk.eagle:package:24873178/4" type="model" library_version="349">
 <description>&lt;b&gt;THOMAS&amp;BETTS&lt;/b&gt; H2R15ST29x</description>
 <packageinstances>
 <packageinstance name="H2R15ST"/>
@@ -2999,7 +2999,7 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="C01005"/>
 </packageinstances>
 </package3d>
-<package3d name="SO-08-ISO7221" urn="urn:adsk.eagle:package:24898359/3" type="model" library_version="348">
+<package3d name="SO-08-ISO7221" urn="urn:adsk.eagle:package:24898359/3" type="model" library_version="349">
 <description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
 
 Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
@@ -3043,7 +3043,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <packageinstance name="FE10-2-SAMTEC-ESW-110-44-S-D"/>
 </packageinstances>
 </package3d>
-<package3d name="1X2-MOLEX-22112022" urn="urn:adsk.eagle:package:24727026/3" type="model" library_version="347">
+<package3d name="1X2-MOLEX-22112022" urn="urn:adsk.eagle:package:24727026/5" type="model" library_version="351">
 <packageinstances>
 <packageinstance name="1X02-MOLEX-22112022"/>
 </packageinstances>
@@ -3053,7 +3053,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <packageinstance name="1X03RA-MOLEX-22122034"/>
 </packageinstances>
 </package3d>
-<package3d name="SO-08" urn="urn:adsk.eagle:package:24898229/1" type="model" library_version="348">
+<package3d name="SO-08" urn="urn:adsk.eagle:package:24898229/1" type="model" library_version="349">
 <description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
 
 Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
@@ -3231,7 +3231,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="D-SUB15-" urn="urn:adsk.eagle:component:9166134/3" prefix="X" library_version="333">
+<deviceset name="D-SUB15-" urn="urn:adsk.eagle:component:9166134/4" prefix="X" library_version="349">
 <description>&lt;b&gt;D-Subminiatur Connector&lt;/b&gt;&lt;p&gt;
 Source: Electronioc Interconnects European Edition 1998</description>
 <gates>
@@ -3361,7 +3361,7 @@ Source: Electronioc Interconnects European Edition 1998</description>
 <connect gate="-9" pin="F" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24873178/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24873178/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4655,7 +4655,7 @@ Source: Electronioc Interconnects European Edition 1998</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ISO7221" urn="urn:adsk.eagle:component:24898002/5" prefix="IC" library_version="348">
+<deviceset name="ISO7221" urn="urn:adsk.eagle:component:24898002/5" prefix="IC" library_version="349">
 <description>&lt;b&gt;DUAL DIGITAL ISOLATORS&lt;/b&gt;&lt;p&gt;
 Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 <gates>
@@ -4878,7 +4878,7 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X2-MOLEX-22112022" urn="urn:adsk.eagle:component:24728606/3" prefix="J" library_version="347">
+<deviceset name="PINHD-1X2-MOLEX-22112022" urn="urn:adsk.eagle:component:24728606/5" prefix="J" library_version="351">
 <gates>
 <gate name="G$1" symbol="PINHD-1X2-MOLEX-22112022" x="0" y="0"/>
 </gates>
@@ -4889,7 +4889,7 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24727026/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24727026/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -4984,7 +4984,7 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="X1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="D-SUB15-" device="H2R15ST" package3d_urn="urn:adsk.eagle:package:24873178/3" value="Amphenol L77SDAH15SOL2RM8C309"/>
+<part name="X1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="D-SUB15-" device="H2R15ST" package3d_urn="urn:adsk.eagle:package:24873178/4" value="Amphenol L77SDAH15SOL2RM8C309"/>
 <part name="GND2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND" device=""/>
 <part name="GND3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND" device=""/>
 <part name="GND4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND" device=""/>
@@ -4999,7 +4999,7 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 <part name="J3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-2X2" device="AMP-75869-130LF" package3d_urn="urn:adsk.eagle:package:24897806/2" value="Amphenol 75869-130LF"/>
 <part name="J4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:9166100/8" value="SAMTEC ESQ-105-44-G-S"/>
 <part name="J5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="FE10-2" device="SAMTEC-ESW-110-44-S-D" package3d_urn="urn:adsk.eagle:package:24899505/2" value="SAMTEC ESW-110-44-S-D"/>
-<part name="J1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X2-MOLEX-22112022" device="" package3d_urn="urn:adsk.eagle:package:24727026/3" value="MOLEX 22112022"/>
+<part name="J1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X2-MOLEX-22112022" device="" package3d_urn="urn:adsk.eagle:package:24727026/5" value="MOLEX 22112022"/>
 <part name="J2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X3RA-MOLEX-22122034" device="" package3d_urn="urn:adsk.eagle:package:24728688/10" value="MOLEX 22122034"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="Letter Frame"/>
 </parts>
