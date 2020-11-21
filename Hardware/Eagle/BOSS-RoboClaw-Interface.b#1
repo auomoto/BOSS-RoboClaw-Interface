@@ -899,13 +899,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6.985" y1="29.845" x2="6.35" y2="30.48" width="0.1524" layer="1"/>
 <wire x1="15.0622" y1="29.845" x2="6.985" y2="29.845" width="0.1524" layer="1"/>
 </signal>
-<signal name="M1A">
+<signal name="N$3">
 <contactref element="X1" pad="2"/>
 <contactref element="J1" pad="1"/>
 <wire x1="27.559" y1="17.9324" x2="27.559" y2="23.749" width="0.508" layer="1"/>
 <wire x1="27.559" y1="23.749" x2="30.48" y2="26.67" width="0.508" layer="1"/>
 </signal>
-<signal name="M1B">
+<signal name="N$4">
 <contactref element="X1" pad="9"/>
 <contactref element="J1" pad="2"/>
 <wire x1="27.94" y1="26.67" x2="26.1874" y2="24.9174" width="0.508" layer="1"/>
