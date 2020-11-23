@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -163,7 +163,7 @@
 </layers>
 <board>
 <description>Basic Micro 2x7A RoboClaw interface to PI M-227.10 motor mikel.</description>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDgyNjcx" projecturn="a.cGVyc29uYWw6dWUyZDgyNjcxIzIwMTgxMjIwMTY2NDc1MjMx" f3durn="urn:adsk.wipprod:dm.lineage:qemoZLx4Q2igI8rCdvDi4A" pcbguid="dc5b1513-d717-4bee-81ed-ee262294f200" lastpulledtime="" lastsyncedchangeguid="640551e2-8e01-6089-9af3-421ee07b5960" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="b83647cb-ed32-9601-0ec2-0db5c28427fd" lastpushedtime="2020-11-23T02:07:44Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDgyNjcx" projecturn="a.cGVyc29uYWw6dWUyZDgyNjcxIzIwMTgxMjIwMTY2NDc1MjMx" f3durn="urn:adsk.wipprod:dm.lineage:qemoZLx4Q2igI8rCdvDi4A" pcbguid="dc5b1513-d717-4bee-81ed-ee262294f200" lastpulledtime="" lastsyncedchangeguid="640551e2-8e01-6089-9af3-421ee07b5960" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="f4e904fe-9d81-9933-5d00-c8afa51d94cd" lastpushedtime="2020-11-23T15:56:23Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="41.4274" y2="0" width="0" layer="20"/>
 <wire x1="41.4274" y1="0" x2="41.4274" y2="48.26" width="0" layer="20"/>
@@ -176,7 +176,7 @@
 <wire x1="0" y1="48.26" x2="7.62" y2="48.26" width="0" layer="20"/>
 <wire x1="8.4836" y1="40.64" x2="32.9438" y2="40.64" width="0" layer="20"/>
 <wire x1="33.8074" y1="48.26" x2="41.4274" y2="48.26" width="0" layer="20"/>
-<text x="11.9126" y="36.2077" size="1.27" layer="21" font="vector">2020-11-21 BOSS Motor
+<text x="11.9126" y="36.2077" size="1.27" layer="21" font="vector">2020-11-23 BOSS Motor
 Controller Interface</text>
 <text x="34.036" y="28.575" size="1.016" layer="21" font="vector" rot="R90">Limits</text>
 <text x="34.2646" y="35.6108" size="1.016" layer="21" font="vector">GND</text>
@@ -196,6 +196,8 @@ Drive</text>
 <wire x1="18.034" y1="10.414" x2="15.748" y2="10.414" width="0.1016" layer="21"/>
 <wire x1="15.748" y1="10.414" x2="15.748" y2="4.826" width="0.1016" layer="21"/>
 <wire x1="15.748" y1="4.826" x2="18.034" y2="4.826" width="0.1016" layer="21"/>
+<text x="0.9525" y="23.8125" size="1.016" layer="21" font="vector">Serial Comm</text>
+<text x="13.97" y="22.5425" size="1.016" layer="21" font="vector">PI Motor Connection</text>
 </plain>
 <libraries>
 <library name="AUmlib" urn="urn:adsk.eagle:library:9166017">
@@ -471,7 +473,7 @@ Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
 <packageinstance name="1X03RA-MOLEX-22122034"/>
 </packageinstances>
 </package3d>
-<package3d name="1X05-ESQ-105-33-T-S" urn="urn:adsk.eagle:package:24929591/3" type="model" library_version="358">
+<package3d name="1X05-ESQ-105-33-T-S" urn="urn:adsk.eagle:package:24929591/4" type="model" library_version="359">
 <description>&lt;h3&gt;Plated Through Hole - 5 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
@@ -682,7 +684,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="X1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="H2R15ST" package3d_urn="urn:adsk.eagle:package:24873178/4" value="Amphenol L77SDAH15SOL2RM8C309" x="20.6375" y="16.51" smashed="yes">
 <attribute name="MF" value="" x="53.6575" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="53.6575" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.3601" y="23.3299" size="1.016" layer="25"/>
+<attribute name="NAME" x="29.6926" y="22.6949" size="1.016" layer="25"/>
 <attribute name="OC_FARNELL" value="unknown" x="53.6575" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.6575" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
@@ -701,24 +703,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="5.8525" y="39.2325" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="J1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="1X02-MOLEX-22112022" package3d_urn="urn:adsk.eagle:package:24727026/5" value="MOLEX 22112022" x="29.21" y="31.75" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.0985" y="32.5501" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="26.416" y="34.1376" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="J2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="1X03RA-MOLEX-22122034" package3d_urn="urn:adsk.eagle:package:24728688/10" value="MOLEX 22122034" x="39.37" y="31.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.2844" y="36.9316" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="J6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="1X05-ESQ-105-33-T-S" package3d_urn="urn:adsk.eagle:package:24929591/3" value="PINHD-1X5-ESQ-105-33-T-S" x="27.0764" y="3.81" smashed="yes" rot="MR180">
-<attribute name="NAME" x="25.8064" y="1.143" size="1.016" layer="26" font="vector" rot="MR180"/>
-<attribute name="VALUE" x="25.8064" y="7.112" size="1.016" layer="28" font="vector" rot="MR180"/>
+<element name="J6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="1X05-ESQ-105-33-T-S" package3d_urn="urn:adsk.eagle:package:24929591/4" value="SAMTEC-ESQ-105-33-T-S" x="27.0764" y="3.81" smashed="yes" rot="MR180">
+<attribute name="NAME" x="19.1389" y="4.318" size="1.016" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="J5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="2X10-ESQ-110-33-T-D" package3d_urn="urn:adsk.eagle:package:24929474/2" value="" x="20.701" y="7.62" smashed="yes" rot="MR180">
-<attribute name="NAME" x="8.001" y="4.445" size="1.27" layer="26" ratio="10" rot="MR180"/>
-<attribute name="VALUE" x="8.001" y="12.065" size="1.27" layer="28" rot="MR180"/>
+<element name="J5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="2X10-ESQ-110-33-T-D" package3d_urn="urn:adsk.eagle:package:24929474/2" value="SAMTEC ESQ-110-33-T-D" x="20.701" y="7.62" smashed="yes" rot="MR180">
+<attribute name="NAME" x="6.4135" y="9.525" size="1.016" layer="26" rot="MR180"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="C1" pad="2"/>
-<contactref element="X1" pad="6"/>
 <contactref element="IC1" pad="4"/>
 <contactref element="J2" pad="3"/>
 <polygon width="0.1524" layer="16">
@@ -726,12 +725,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="20.32" y="36.83"/>
 <vertex x="41.4274" y="36.83"/>
 <vertex x="41.4274" y="7.62"/>
-<vertex x="36.83" y="7.62"/>
-<vertex x="34.925" y="5.715"/>
+<vertex x="36.5125" y="7.62"/>
+<vertex x="34.925" y="6.0325"/>
 <vertex x="34.925" y="0"/>
-<vertex x="6.35" y="0"/>
-<vertex x="6.35" y="5.715"/>
-<vertex x="4.445" y="7.62"/>
+<vertex x="6.6675" y="0"/>
+<vertex x="6.6675" y="6.0325"/>
+<vertex x="5.08" y="7.62"/>
 <vertex x="0" y="7.62"/>
 <vertex x="0" y="26.035"/>
 <vertex x="19.05" y="26.035"/>
@@ -739,6 +738,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <via x="20.4978" y="34.7218" extent="1-16" drill="0.35"/>
 <wire x1="20.4978" y1="33.655" x2="20.4978" y2="34.7218" width="0.508" layer="1"/>
+<contactref element="X1" pad="6"/>
 <contactref element="J5" pad="15"/>
 </signal>
 <signal name="RX">
@@ -791,19 +791,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="VCC1">
 <contactref element="C1" pad="1"/>
 <contactref element="X1" pad="4"/>
-<contactref element="IC1" pad="1"/>
 <wire x1="24.8158" y1="13.6144" x2="25.8064" y2="12.6238" width="0.508" layer="1"/>
 <wire x1="24.8158" y1="13.6144" x2="24.765" y2="16.1036" width="0.508" layer="1"/>
 <via x="24.765" y="16.1036" extent="1-16" drill="0.35"/>
 <wire x1="24.765" y1="16.1036" x2="22.0218" y2="17.9324" width="0.508" layer="16"/>
 <wire x1="22.0218" y1="17.9324" x2="22.0218" y2="28.321" width="0.508" layer="1"/>
 <via x="22.0218" y="28.321" extent="1-16" drill="0.35"/>
-<wire x1="20.4978" y1="29.845" x2="22.0218" y2="28.321" width="0.508" layer="1"/>
 <wire x1="23.495" y1="30.8" x2="23.495" y2="29.7942" width="0.508" layer="16"/>
 <wire x1="23.495" y1="29.7942" x2="22.0218" y2="28.321" width="0.508" layer="16"/>
 <contactref element="J5" pad="16"/>
 <wire x1="25.8064" y1="7.5946" x2="27.051" y2="6.35" width="0.508" layer="1"/>
 <wire x1="25.8064" y1="12.6238" x2="25.8064" y2="7.5946" width="0.508" layer="1"/>
+<contactref element="IC1" pad="1"/>
+<wire x1="20.4978" y1="29.845" x2="22.0218" y2="28.321" width="0.508" layer="1"/>
 </signal>
 <signal name="GND-ISO">
 <contactref element="C2" pad="2"/>
@@ -846,20 +846,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.1874" y1="17.1704" x2="26.1874" y2="29.9974" width="0.508" layer="1"/>
 <wire x1="26.1874" y1="29.9974" x2="27.94" y2="31.75" width="0.508" layer="1"/>
 </signal>
-<signal name="N$1">
-<contactref element="X1" pad="15"/>
+<signal name="ENC1A">
 <contactref element="J5" pad="8"/>
-<wire x1="12.3317" y1="15.0876" x2="13.081" y2="14.3383" width="0.1524" layer="1"/>
-<wire x1="13.081" y1="7.874" x2="13.335" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="13.335" y1="7.62" x2="15.621" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="15.621" y1="7.62" x2="16.891" y2="6.35" width="0.1524" layer="1"/>
-<wire x1="13.081" y1="14.3383" x2="13.081" y2="7.874" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$2">
-<contactref element="J5" pad="7"/>
 <contactref element="X1" pad="14"/>
-<wire x1="15.1003" y1="15.0876" x2="16.891" y2="13.2969" width="0.1524" layer="1"/>
-<wire x1="16.891" y1="13.2969" x2="16.891" y2="8.89" width="0.1524" layer="1"/>
+<wire x1="15.1003" y1="15.0876" x2="18.161" y2="12.0269" width="0.1524" layer="1"/>
+<wire x1="18.161" y1="7.62" x2="16.891" y2="6.35" width="0.1524" layer="1"/>
+<wire x1="18.161" y1="12.0269" x2="18.161" y2="7.62" width="0.1524" layer="1"/>
+</signal>
+<signal name="ENC1B">
+<contactref element="J5" pad="7"/>
+<contactref element="X1" pad="15"/>
+<wire x1="12.3317" y1="15.0876" x2="16.891" y2="10.5283" width="0.1524" layer="1"/>
+<wire x1="16.891" y1="10.5283" x2="16.891" y2="8.89" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
