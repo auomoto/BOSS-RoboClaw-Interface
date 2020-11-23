@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -851,19 +851,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.1874" y1="29.9974" x2="27.94" y2="31.75" width="0.508" layer="1"/>
 </signal>
 <signal name="ENC1A">
-<contactref element="X1" pad="15"/>
 <contactref element="J5" pad="8"/>
-<wire x1="12.3317" y1="15.0876" x2="13.081" y2="14.3383" width="0.1524" layer="1"/>
-<wire x1="13.081" y1="7.874" x2="13.335" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="13.335" y1="7.62" x2="15.621" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="15.621" y1="7.62" x2="16.891" y2="6.35" width="0.1524" layer="1"/>
-<wire x1="13.081" y1="14.3383" x2="13.081" y2="7.874" width="0.1524" layer="1"/>
+<contactref element="X1" pad="14"/>
+<wire x1="15.1003" y1="15.0876" x2="18.161" y2="12.0269" width="0.1524" layer="1"/>
+<wire x1="18.161" y1="7.62" x2="16.891" y2="6.35" width="0.1524" layer="1"/>
+<wire x1="18.161" y1="12.0269" x2="18.161" y2="7.62" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENC1B">
 <contactref element="J5" pad="7"/>
-<contactref element="X1" pad="14"/>
-<wire x1="15.1003" y1="15.0876" x2="16.891" y2="13.2969" width="0.1524" layer="1"/>
-<wire x1="16.891" y1="13.2969" x2="16.891" y2="8.89" width="0.1524" layer="1"/>
+<contactref element="X1" pad="15"/>
+<wire x1="12.3317" y1="15.0876" x2="16.891" y2="10.5283" width="0.1524" layer="1"/>
+<wire x1="16.891" y1="10.5283" x2="16.891" y2="8.89" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -5103,7 +5103,7 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 <part name="J2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X3RA-MOLEX-22122034" device="" package3d_urn="urn:adsk.eagle:package:24728688/10" value="MOLEX 22122034"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="Letter Frame"/>
 <part name="J6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X5-ESQ-105-33-T-S" device="" package3d_urn="urn:adsk.eagle:package:24929591/3"/>
-<part name="J4" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-2X10-ESQ-110-33-T-D" device="" package3d_urn="urn:adsk.eagle:package:24929446/1"/>
+<part name="J5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-2X10-ESQ-110-33-T-D" device="SAMTEC" package3d_urn="urn:adsk.eagle:package:24929474/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5277,7 +5277,7 @@ BasicMicro 2x7A controller.</text>
 <attribute name="NAME" x="106.68" y="119.38" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="121.92" y="99.06" size="1.27" layer="96" rot="MR0"/>
 </instance>
-<instance part="J4" gate="A" x="156.21" y="154.94" smashed="yes" rot="MR180">
+<instance part="J5" gate="A" x="156.21" y="154.94" smashed="yes" rot="MR180">
 <attribute name="NAME" x="149.86" y="141.605" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="149.86" y="172.72" size="1.778" layer="96" rot="MR180"/>
 </instance>
@@ -5309,8 +5309,8 @@ BasicMicro 2x7A controller.</text>
 <wire x1="167.64" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="137.16" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
 <junction x="167.64" y="162.56"/>
-<pinref part="J4" gate="A" pin="16"/>
 <wire x1="161.29" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="J5" gate="A" pin="16"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -5369,8 +5369,8 @@ BasicMicro 2x7A controller.</text>
 <wire x1="144.78" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
 <junction x="147.32" y="162.56"/>
 <pinref part="IC1" gate="G$1" pin="VCC1"/>
-<pinref part="J4" gate="A" pin="15"/>
 <wire x1="153.67" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="J5" gate="A" pin="15"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -5434,7 +5434,7 @@ BasicMicro 2x7A controller.</text>
 <pinref part="X1" gate="-14" pin="F"/>
 <wire x1="161.29" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 <label x="182.88" y="152.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="J4" gate="A" pin="8"/>
+<pinref part="J5" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="ENC1B" class="0">
@@ -5442,7 +5442,7 @@ BasicMicro 2x7A controller.</text>
 <pinref part="X1" gate="-15" pin="F"/>
 <wire x1="153.67" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
 <label x="132.08" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J4" gate="A" pin="7"/>
+<pinref part="J5" gate="A" pin="7"/>
 </segment>
 </net>
 </nets>

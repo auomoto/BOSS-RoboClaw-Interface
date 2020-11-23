@@ -163,7 +163,7 @@
 </layers>
 <board>
 <description>Basic Micro 2x7A RoboClaw interface to PI M-227.10 motor mikel.</description>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDgyNjcx" projecturn="a.cGVyc29uYWw6dWUyZDgyNjcxIzIwMTgxMjIwMTY2NDc1MjMx" f3durn="urn:adsk.wipprod:dm.lineage:qemoZLx4Q2igI8rCdvDi4A" pcbguid="dc5b1513-d717-4bee-81ed-ee262294f200" lastpulledtime="" lastsyncedchangeguid="640551e2-8e01-6089-9af3-421ee07b5960" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="c83e0671-1a23-f1e2-1b8e-b8cdd854d6ba" lastpushedtime="2020-11-23T16:08:20Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDgyNjcx" projecturn="a.cGVyc29uYWw6dWUyZDgyNjcxIzIwMTgxMjIwMTY2NDc1MjMx" f3durn="urn:adsk.wipprod:dm.lineage:qemoZLx4Q2igI8rCdvDi4A" pcbguid="dc5b1513-d717-4bee-81ed-ee262294f200" lastpulledtime="" lastsyncedchangeguid="640551e2-8e01-6089-9af3-421ee07b5960" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="5ea78dc1-fa9a-b686-c250-1ae1f5f38843" lastpushedtime="2020-11-23T17:20:39Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="41.4274" y2="0" width="0" layer="20"/>
 <wire x1="41.4274" y1="0" x2="41.4274" y2="48.26" width="0" layer="20"/>
@@ -696,7 +696,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="12.7" y="33.9725" size="1.016" layer="26" font="vector" rot="MR0"/>
 <attribute name="SPICEPREFIX" value="C" x="12.065" y="31.75" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="IC1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="SO-08-ISO7221" package3d_urn="urn:adsk.eagle:package:24898359/3" value="ISO7221ISO7221" x="17.78" y="31.75" smashed="yes" rot="R180">
+<element name="IC1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="SO-08-ISO7221" package3d_urn="urn:adsk.eagle:package:24898359/3" value="TI ISO7221ADR" x="17.78" y="31.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.415" y="28.575" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="J3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" package="2X02-SHROUD" package3d_urn="urn:adsk.eagle:package:24897806/2" value="Amphenol 75869-130LF" x="5.08" y="31.75" smashed="yes" rot="R90">

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -740,10 +740,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.4978" y1="33.655" x2="20.4978" y2="34.7218" width="0.508" layer="1"/>
 <contactref element="X1" pad="6"/>
 <contactref element="J5" pad="15"/>
-<wire x1="23.495" y1="32.7" x2="35.56" y2="34.29" width="0" layer="19" extent="16-16"/>
-<wire x1="20.4978" y1="33.655" x2="23.495" y2="32.7" width="0" layer="19" extent="1-16"/>
-<wire x1="16.4846" y1="17.9324" x2="20.4978" y2="33.655" width="0" layer="19" extent="1-1"/>
-<wire x1="27.051" y1="8.89" x2="16.4846" y2="17.9324" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX">
 <contactref element="IC1" pad="2"/>
@@ -807,7 +803,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.8064" y1="7.5946" x2="27.051" y2="6.35" width="0.508" layer="1"/>
 <wire x1="25.8064" y1="12.6238" x2="25.8064" y2="7.5946" width="0.508" layer="1"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="22.0218" y1="28.321" x2="20.4978" y2="29.845" width="0" layer="19" extent="1-1"/>
+<wire x1="20.4978" y1="29.845" x2="22.0218" y2="28.321" width="0.508" layer="1"/>
 </signal>
 <signal name="GND-ISO">
 <contactref element="C2" pad="2"/>
@@ -852,18 +848,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="ENC1A">
 <contactref element="J5" pad="8"/>
-<wire x1="13.081" y1="7.874" x2="13.335" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="13.335" y1="7.62" x2="15.621" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="15.621" y1="7.62" x2="16.891" y2="6.35" width="0.1524" layer="1"/>
-<wire x1="13.081" y1="14.3383" x2="13.081" y2="7.874" width="0.1524" layer="1"/>
 <contactref element="X1" pad="14"/>
-<wire x1="13.081" y1="14.3383" x2="15.1003" y2="15.0876" width="0" layer="19" extent="1-1"/>
+<wire x1="15.1003" y1="15.0876" x2="18.161" y2="12.0269" width="0.1524" layer="1"/>
+<wire x1="18.161" y1="7.62" x2="16.891" y2="6.35" width="0.1524" layer="1"/>
+<wire x1="18.161" y1="12.0269" x2="18.161" y2="7.62" width="0.1524" layer="1"/>
 </signal>
 <signal name="ENC1B">
 <contactref element="J5" pad="7"/>
-<wire x1="16.891" y1="13.2969" x2="16.891" y2="8.89" width="0.1524" layer="1"/>
 <contactref element="X1" pad="15"/>
-<wire x1="12.3317" y1="15.0876" x2="16.891" y2="13.2969" width="0" layer="19" extent="1-1"/>
+<wire x1="12.3317" y1="15.0876" x2="16.891" y2="10.5283" width="0.1524" layer="1"/>
+<wire x1="16.891" y1="10.5283" x2="16.891" y2="8.89" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
