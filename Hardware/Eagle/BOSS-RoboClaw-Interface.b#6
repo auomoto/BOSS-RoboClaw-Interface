@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -163,7 +163,7 @@
 </layers>
 <board>
 <description>Basic Micro 2x7A RoboClaw interface to PI M-227.10 motor mikel.</description>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDgyNjcx" projecturn="a.cGVyc29uYWw6dWUyZDgyNjcxIzIwMTgxMjIwMTY2NDc1MjMx" f3durn="urn:adsk.wipprod:dm.lineage:qemoZLx4Q2igI8rCdvDi4A" pcbguid="dc5b1513-d717-4bee-81ed-ee262294f200" lastpulledtime="" lastsyncedchangeguid="640551e2-8e01-6089-9af3-421ee07b5960" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="8ddc0d05-a0c7-f717-4274-e7057d818ed3" lastpushedtime="2020-11-23T02:29:30Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDgyNjcx" projecturn="a.cGVyc29uYWw6dWUyZDgyNjcxIzIwMTgxMjIwMTY2NDc1MjMx" f3durn="urn:adsk.wipprod:dm.lineage:qemoZLx4Q2igI8rCdvDi4A" pcbguid="dc5b1513-d717-4bee-81ed-ee262294f200" lastpulledtime="" lastsyncedchangeguid="640551e2-8e01-6089-9af3-421ee07b5960" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="f4e904fe-9d81-9933-5d00-c8afa51d94cd" lastpushedtime="2020-11-23T15:56:23Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="41.4274" y2="0" width="0" layer="20"/>
 <wire x1="41.4274" y1="0" x2="41.4274" y2="48.26" width="0" layer="20"/>
@@ -725,12 +725,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="20.32" y="36.83"/>
 <vertex x="41.4274" y="36.83"/>
 <vertex x="41.4274" y="7.62"/>
-<vertex x="36.83" y="7.62"/>
-<vertex x="34.925" y="5.715"/>
+<vertex x="36.5125" y="7.62"/>
+<vertex x="34.925" y="6.0325"/>
 <vertex x="34.925" y="0"/>
-<vertex x="6.35" y="0"/>
-<vertex x="6.35" y="5.715"/>
-<vertex x="4.445" y="7.62"/>
+<vertex x="6.6675" y="0"/>
+<vertex x="6.6675" y="6.0325"/>
+<vertex x="5.08" y="7.62"/>
 <vertex x="0" y="7.62"/>
 <vertex x="0" y="26.035"/>
 <vertex x="19.05" y="26.035"/>

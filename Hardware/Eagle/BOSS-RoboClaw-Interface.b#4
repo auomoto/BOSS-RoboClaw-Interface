@@ -197,6 +197,7 @@ Drive</text>
 <wire x1="15.748" y1="10.414" x2="15.748" y2="4.826" width="0.1016" layer="21"/>
 <wire x1="15.748" y1="4.826" x2="18.034" y2="4.826" width="0.1016" layer="21"/>
 <text x="0.9525" y="23.8125" size="1.016" layer="21" font="vector">Serial Comm</text>
+<text x="13.97" y="22.5425" size="1.016" layer="21" font="vector">PI Motor Connection</text>
 </plain>
 <libraries>
 <library name="AUmlib" urn="urn:adsk.eagle:library:9166017">

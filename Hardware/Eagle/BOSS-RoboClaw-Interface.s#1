@@ -5453,40 +5453,6 @@ BasicMicro 2x7A controller.</text>
 </net>
 </nets>
 </sheet>
-<sheet>
-<plain>
-<text x="2.54" y="2.54" size="1.27" layer="97" font="fixed" distance="110">Parts List
-One each except we need two 0.1uF bypass caps and four each nylon standoffs and nuts.
-
-D-SUB 15 Female, connects to PI M-227.10 motor, Amphenol L77SDAH15SOL2RM8C309, Digikey L77SDAH15SOL2RM8C309-ND
-6-position clamp terminal (not shown, replace RoboClaw's screw terminal), Phoenix Contact 1823670, Digikey 277-11662-1-ND
-3x10 socket (connects to RoboClaw pin headers, shown as SV1 and SV2), Samtec ESQ-110-44-S-T, Digikey ESQ-110-44-S-T-ND
-Digital Isolator, TI ISO7221ADR, Digikey 296-21955-1-ND
-4-pos shrouded pin header, Amphenol 75869-130LF, Digikey 609-3527-ND
-4-pos IDC connector (not shown, matches above), Amphenol 71600-604LF, Digikey 609-5963-ND
-2-pos locking header (motor power), Molex 22124022, Digikey WM13445-ND
-2-pos connector housing (not shown, matching above), Molex 22-01-3027, Digikey WM2000-ND
-3-pos locking header (limit switches), Molex 22122034, Digikey WM2712-ND
-3-pos connector housing (not shown, matching above), Molex 22-01-3037, Digikey WM2001-ND
-Crimp pins for above housings (not shown), Molex 08-55-0102, Digikey WM2312-ND
-Bypass cap 0.1 uF (2X), Murata GCM21BR71H104KA37K, Digikey 490-8049-1-ND
-Ribbon cable (not shown), 3M HF365/04 100, Digikey 3M157986-10-ND
-Nylon standoff (not shown, need four, from RoboClaw board), Keystone Electronics 4805, Digikey 36-4805-ND
-Nylon nut (not shown, need four), Keystone Electronics 9605, Digikey 36-9605-ND</text>
-<wire x1="0" y1="0" x2="0" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="0" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="97"/>
-<wire x1="134.62" y1="53.34" x2="134.62" y2="0" width="0.1524" layer="97"/>
-<wire x1="134.62" y1="0" x2="0" y2="0" width="0.1524" layer="97"/>
-<text x="15.24" y="-10.16" size="1.778" layer="97">Next rev: Make bigger holes for the elevated sockets,
-check to see if pins 12 &amp; 14 are grounds and if so, ground them and remove the vias</text>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
 </sheets>
 </schematic>
 </drawing>

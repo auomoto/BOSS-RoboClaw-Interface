@@ -5096,7 +5096,7 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 <part name="SUPPLY2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="VCC_2" device=""/>
 <part name="GND-ISO1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND-ISO" device=""/>
 <part name="GND-ISO2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="GND-ISO" device=""/>
-<part name="IC1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="ISO7221" device="ISO7221" package3d_urn="urn:adsk.eagle:package:24898359/3" value="TI ISO7221"/>
+<part name="IC1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="ISO7221" device="ISO7221" package3d_urn="urn:adsk.eagle:package:24898359/3" value="TI ISO7221ADR"/>
 <part name="J3" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-2X2" device="AMP-75869-130LF" package3d_urn="urn:adsk.eagle:package:24897806/2" value="Amphenol 75869-130LF"/>
 <part name="J1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X2-MOLEX-22112022" device="" package3d_urn="urn:adsk.eagle:package:24727026/5" value="MOLEX 22112022"/>
 <part name="J2" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X3RA-MOLEX-22122034" device="" package3d_urn="urn:adsk.eagle:package:24728688/10" value="MOLEX 22122034"/>

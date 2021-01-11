@@ -851,19 +851,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.1874" y1="29.9974" x2="27.94" y2="31.75" width="0.508" layer="1"/>
 </signal>
 <signal name="ENC1A">
-<contactref element="X1" pad="15"/>
 <contactref element="J5" pad="8"/>
-<wire x1="12.3317" y1="15.0876" x2="13.081" y2="14.3383" width="0.1524" layer="1"/>
 <wire x1="13.081" y1="7.874" x2="13.335" y2="7.62" width="0.1524" layer="1"/>
 <wire x1="13.335" y1="7.62" x2="15.621" y2="7.62" width="0.1524" layer="1"/>
 <wire x1="15.621" y1="7.62" x2="16.891" y2="6.35" width="0.1524" layer="1"/>
 <wire x1="13.081" y1="14.3383" x2="13.081" y2="7.874" width="0.1524" layer="1"/>
+<contactref element="X1" pad="14"/>
+<wire x1="13.081" y1="14.3383" x2="15.1003" y2="15.0876" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ENC1B">
 <contactref element="J5" pad="7"/>
-<contactref element="X1" pad="14"/>
-<wire x1="15.1003" y1="15.0876" x2="16.891" y2="13.2969" width="0.1524" layer="1"/>
 <wire x1="16.891" y1="13.2969" x2="16.891" y2="8.89" width="0.1524" layer="1"/>
+<contactref element="X1" pad="15"/>
+<wire x1="12.3317" y1="15.0876" x2="16.891" y2="13.2969" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
