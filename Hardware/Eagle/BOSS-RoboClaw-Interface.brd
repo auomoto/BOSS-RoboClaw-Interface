@@ -176,7 +176,7 @@
 <wire x1="0" y1="48.26" x2="7.62" y2="48.26" width="0" layer="20"/>
 <wire x1="8.4836" y1="40.64" x2="32.9438" y2="40.64" width="0" layer="20"/>
 <wire x1="33.8074" y1="48.26" x2="41.4274" y2="48.26" width="0" layer="20"/>
-<text x="11.9126" y="36.2077" size="1.27" layer="21" font="vector">2020-11-23 BOSS Motor
+<text x="11.9126" y="36.2077" size="1.27" layer="21" font="vector">2021-02-15 BOSS Motor
 Controller Interface</text>
 <text x="34.036" y="28.575" size="1.016" layer="21" font="vector" rot="R90">Limits</text>
 <text x="34.2646" y="35.6108" size="1.016" layer="21" font="vector">GND</text>
@@ -743,39 +743,39 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="RX">
 <contactref element="IC1" pad="2"/>
-<wire x1="20.7518" y1="12.3444" x2="19.2786" y2="13.8176" width="0.1524" layer="1"/>
-<wire x1="18.6436" y1="31.115" x2="20.4978" y2="31.115" width="0.1524" layer="1"/>
-<wire x1="20.7518" y1="5.0546" x2="20.7518" y2="12.3444" width="0.1524" layer="1"/>
-<wire x1="19.2786" y1="13.8176" x2="19.2786" y2="15.7734" width="0.1524" layer="1"/>
-<wire x1="19.2786" y1="15.7734" x2="17.9324" y2="17.1196" width="0.1524" layer="1"/>
-<wire x1="17.9324" y1="17.1196" x2="17.9324" y2="30.4038" width="0.1524" layer="1"/>
-<wire x1="17.9324" y1="30.4038" x2="18.6436" y2="31.115" width="0.1524" layer="1"/>
+<wire x1="20.7518" y1="12.3444" x2="19.2786" y2="13.8176" width="0.2032" layer="1"/>
+<wire x1="18.6436" y1="31.115" x2="20.4978" y2="31.115" width="0.2032" layer="1"/>
+<wire x1="20.7518" y1="5.0546" x2="20.7518" y2="12.3444" width="0.2032" layer="1"/>
+<wire x1="19.2786" y1="13.8176" x2="19.2786" y2="15.7734" width="0.2032" layer="1"/>
+<wire x1="19.2786" y1="15.7734" x2="17.9324" y2="17.1196" width="0.2032" layer="1"/>
+<wire x1="17.9324" y1="17.1196" x2="17.9324" y2="30.4038" width="0.2032" layer="1"/>
+<wire x1="17.9324" y1="30.4038" x2="18.6436" y2="31.115" width="0.2032" layer="1"/>
 <contactref element="J6" pad="1"/>
-<wire x1="21.9964" y1="3.81" x2="20.7518" y2="5.0546" width="0.1524" layer="1"/>
+<wire x1="21.9964" y1="3.81" x2="20.7518" y2="5.0546" width="0.2032" layer="1"/>
 </signal>
 <signal name="TX">
 <contactref element="IC1" pad="3"/>
-<wire x1="20.4978" y1="32.385" x2="21.7932" y2="32.385" width="0.1524" layer="1"/>
-<wire x1="21.7932" y1="32.385" x2="23.4188" y2="30.7594" width="0.1524" layer="1"/>
-<wire x1="23.4188" y1="30.7594" x2="23.4188" y2="17.2212" width="0.1524" layer="1"/>
-<wire x1="23.4188" y1="17.2212" x2="22.0218" y2="15.8242" width="0.1524" layer="1"/>
-<wire x1="22.0218" y1="15.8242" x2="22.0218" y2="11.4046" width="0.1524" layer="1"/>
-<wire x1="23.2664" y1="10.16" x2="22.0218" y2="11.4046" width="0.1524" layer="1"/>
+<wire x1="20.4978" y1="32.385" x2="21.7932" y2="32.385" width="0.2032" layer="1"/>
+<wire x1="21.7932" y1="32.385" x2="23.4188" y2="30.7594" width="0.2032" layer="1"/>
+<wire x1="23.4188" y1="30.7594" x2="23.4188" y2="17.2212" width="0.2032" layer="1"/>
+<wire x1="23.4188" y1="17.2212" x2="22.0218" y2="15.8242" width="0.2032" layer="1"/>
+<wire x1="22.0218" y1="15.8242" x2="22.0218" y2="11.4046" width="0.2032" layer="1"/>
+<wire x1="23.2664" y1="10.16" x2="22.0218" y2="11.4046" width="0.2032" layer="1"/>
 <contactref element="J6" pad="2"/>
-<wire x1="24.5364" y1="3.81" x2="23.2664" y2="5.08" width="0.1524" layer="1"/>
-<wire x1="23.2664" y1="5.08" x2="23.2664" y2="10.16" width="0.1524" layer="1"/>
+<wire x1="24.5364" y1="3.81" x2="23.2664" y2="5.08" width="0.2032" layer="1"/>
+<wire x1="23.2664" y1="5.08" x2="23.2664" y2="10.16" width="0.2032" layer="1"/>
 </signal>
 <signal name="LIMIT">
 <contactref element="J2" pad="1"/>
 <contactref element="J2" pad="2"/>
-<wire x1="35.56" y1="31.75" x2="35.56" y2="29.21" width="0.1524" layer="1"/>
-<wire x1="35.56" y1="29.21" x2="34.29" y2="27.93999375" width="0.1524" layer="1"/>
-<wire x1="34.29" y1="2.7432" x2="33.7058" y2="2.159" width="0.1524" layer="1"/>
-<wire x1="34.29" y1="27.93999375" x2="34.29" y2="2.7432" width="0.1524" layer="1"/>
-<wire x1="33.7058" y1="2.159" x2="30.226" y2="2.159" width="0.1524" layer="1"/>
-<wire x1="29.6164" y1="2.7686" x2="30.226" y2="2.159" width="0.1524" layer="1"/>
+<wire x1="35.56" y1="31.75" x2="35.56" y2="29.21" width="0.2032" layer="1"/>
+<wire x1="35.56" y1="29.21" x2="34.29" y2="27.93999375" width="0.2032" layer="1"/>
+<wire x1="34.29" y1="2.7432" x2="33.7058" y2="2.159" width="0.2032" layer="1"/>
+<wire x1="34.29" y1="27.93999375" x2="34.29" y2="2.7432" width="0.2032" layer="1"/>
+<wire x1="33.7058" y1="2.159" x2="30.226" y2="2.159" width="0.2032" layer="1"/>
+<wire x1="29.6164" y1="2.7686" x2="30.226" y2="2.159" width="0.2032" layer="1"/>
 <contactref element="J6" pad="4"/>
-<wire x1="29.6164" y1="3.81" x2="29.6164" y2="2.7686" width="0.1524" layer="1"/>
+<wire x1="29.6164" y1="3.81" x2="29.6164" y2="2.7686" width="0.2032" layer="1"/>
 </signal>
 <signal name="VCC2">
 <contactref element="C2" pad="1"/>
@@ -823,14 +823,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="TXMCU">
 <contactref element="IC1" pad="7"/>
 <contactref element="J3" pad="1"/>
-<wire x1="6.985" y1="31.115" x2="6.35" y2="30.48" width="0.1524" layer="1"/>
-<wire x1="15.0622" y1="31.115" x2="6.985" y2="31.115" width="0.1524" layer="1"/>
+<wire x1="6.985" y1="31.115" x2="6.35" y2="30.48" width="0.2032" layer="1"/>
+<wire x1="15.0622" y1="31.115" x2="6.985" y2="31.115" width="0.2032" layer="1"/>
 </signal>
 <signal name="RXMCU">
 <contactref element="IC1" pad="6"/>
 <contactref element="J3" pad="3"/>
-<wire x1="6.985" y1="32.385" x2="6.35" y2="33.02" width="0.1524" layer="1"/>
-<wire x1="15.0622" y1="32.385" x2="6.985" y2="32.385" width="0.1524" layer="1"/>
+<wire x1="6.985" y1="32.385" x2="6.35" y2="33.02" width="0.2032" layer="1"/>
+<wire x1="15.0622" y1="32.385" x2="6.985" y2="32.385" width="0.2032" layer="1"/>
 </signal>
 <signal name="M1A">
 <contactref element="X1" pad="2"/>
