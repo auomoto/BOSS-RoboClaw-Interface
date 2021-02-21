@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -8456,7 +8456,7 @@ Source: http://focus.ti.com/lit/ds/symlink/iso7221a.pdf</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device="" value="Letter Frame"/>
 <part name="J6" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-1X5-ESQ-105-33-T-S" device="" package3d_urn="urn:adsk.eagle:package:24929591/4" value="SAMTEC-ESQ-105-33-T-S"/>
 <part name="J5" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="PINHD-2X10-ESQ-110-33-T-D" device="SAMTEC" package3d_urn="urn:adsk.eagle:package:24929474/2" value="SAMTEC ESQ-110-33-T-D"/>
-<part name="R1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:4021199/4" value="10K"/>
+<part name="R1" library="AUmlib" library_urn="urn:adsk.eagle:library:9166017" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:4021199/4" value="4K7"/>
 </parts>
 <sheets>
 <sheet>
