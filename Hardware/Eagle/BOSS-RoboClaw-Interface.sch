@@ -8521,7 +8521,7 @@ OUTB: Serial RX on MCU</text>
 <wire x1="116.84" y1="175.26" x2="116.84" y2="129.54" width="0.1524" layer="97"/>
 <wire x1="116.84" y1="129.54" x2="195.58" y2="129.54" width="0.1524" layer="97"/>
 <text x="172.72" y="170.18" size="1.778" layer="97" distance="100">Encoder Inputs</text>
-<text x="180.34" y="25.4" size="1.778" layer="97">2019-03-01 BOSS Spectrograph interface
+<text x="180.34" y="25.4" size="1.778" layer="97">2021-04-10 BOSS Spectrograph interface
 between PI M227.10 motor mike and
 BasicMicro 2x7A controller.</text>
 </plain>
