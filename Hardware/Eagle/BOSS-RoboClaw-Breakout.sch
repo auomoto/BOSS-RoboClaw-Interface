@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5029,7 +5029,7 @@ Source: Electronioc Interconnects European Edition 1998</description>
 13  Not used
 14  Encoder A
 15  Encoder B</text>
-<text x="71.12" y="104.14" size="1.778" layer="97">Breakout between
+<text x="144.78" y="33.02" size="1.778" layer="97">Breakout between
 PI M-227.10 or Portescap 13N88/D12 Motors
 and Basic Micro 2x7A RoboClaw controller.
 
@@ -5039,7 +5039,20 @@ readout at JP4 with 0.4V/A.
 
 The sensor has a current range of +/-5A,
 an internal resistance of 1.2mOhm, and
-120kHz bandwidth if C2 is omitted.</text>
+120kHz bandwidth if C2 is omitted.
+
+JP1 is the Portescap motor connector
+
+X2 is the PI motor connector
+
+JP2 presents encoder signals for measurement
+
+JP3 presents the current sensor
+signal, measure voltage at 0.4V/A
+
+JP4 bypasses the current sensor if
+jumpered (the current sensor is not
+available now)</text>
 </plain>
 <instances>
 <instance part="X2" gate="-1" x="88.9" y="88.9" smashed="yes" rot="MR180">
@@ -5138,7 +5151,7 @@ an internal resistance of 1.2mOhm, and
 <attribute name="VALUE" x="85.09" y="35.56" size="1.778" layer="96"/>
 </instance>
 <instance part="JP2" gate="A" x="63.5" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="52.07" y="46.355" size="1.778" layer="95"/>
+<attribute name="NAME" x="62.23" y="38.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="55.88" y="49.53" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="JP1" gate="A" x="55.88" y="96.52" smashed="yes">
@@ -5177,7 +5190,7 @@ an internal resistance of 1.2mOhm, and
 <attribute name="VALUE" x="35.56" y="40.64" size="1.778" layer="96"/>
 </instance>
 <instance part="JP4" gate="G$1" x="48.26" y="43.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.895" y="39.37" size="1.778" layer="95" rot="R270"/>
+<attribute name="NAME" x="46.99" y="38.735" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.18" y="49.53" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
