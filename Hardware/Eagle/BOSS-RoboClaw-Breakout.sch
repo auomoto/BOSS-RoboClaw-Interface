@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -5050,9 +5050,7 @@ JP2 presents encoder signals for measurement
 JP3 presents the current sensor
 signal, measure voltage at 0.4V/A
 
-JP4 bypasses the current sensor if
-jumpered (the current sensor is not
-available now)</text>
+JP4 is connected to the motor power pins</text>
 </plain>
 <instances>
 <instance part="X2" gate="-1" x="88.9" y="88.9" smashed="yes" rot="MR180">
